@@ -1,13 +1,15 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+bin/
+obj/
+build/
+xmr-stak-cpu.layout
+xmr-stak-cpu.depend
+config-debug.txt
 
-pkg/
-src/
+# netbeans project files
+/nbproject/
+
+# tmp files
+*~
+
+# merge original backup files
+*.orig
